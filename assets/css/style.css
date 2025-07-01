@@ -2,3 +2,11 @@
 h1 {
     color: blue;
 }
+/* селектор классу */
+.annotation{
+    font-style: italic;
+}
+/* селектор ідентіфікатора */
+#subscri    be-btn{
+    color: red;
+}
