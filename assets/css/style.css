@@ -1,12 +1,19 @@
 /* Зовнішні стилі */
 h1 {
     color: blue;
+    font-family: initial;  /* вимикае спадковість */
+    border: inherit;  /* вмикае спадковість */
 }
-/* селектор классу */
-.annotation{
-    font-style: italic;
+body{
+    font-family: sans-serif;
+    border: 5px red solid;
+    text-align: center;
+    color: darkgray;
 }
-/* селектор ідентіфікатора */
-#subscri    be-btn{
-    color: red;
+p{
+    font-family: monospace;
+}
+a{
+    color: inherit;
+    text-decoration: none;
 }
