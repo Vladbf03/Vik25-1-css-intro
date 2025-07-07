@@ -2,17 +2,16 @@
 
 body{
     /* text-align: right; */
+    margin: 0;
 }
 p{
-    width: 200px;
-    height: 300px;
-    background-color: blanchedalmond;
-    border: 1px solid red;
+    width: 100%;
+    border: 5px solid red;
     padding: 20px;
-    margin: 10px;
     display: inline-block;
+    box-sizing: border-box;
     /* text-align: initial; */
-    vertical-align: top;
+    
 }
 
 
@@ -43,7 +42,7 @@ p{
 
 /* приклад */
 
-ul{
+/* ul{
     text-align: center;
 }
 .nav-link-item{
@@ -58,4 +57,4 @@ a{
     text-align: center;
     margin: 0 20px;
     display: inline-block;
-}
+} */
