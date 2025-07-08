@@ -25,6 +25,9 @@ body{
     font-size: 0;
     margin: 30px;
 }
+.section2{
+    text-align: center;
+}
 .attach1{
     width: 50%;
     border: 5px solid red;
@@ -46,9 +49,16 @@ img{
     object-position: center;
     border: 2px solid green;
     border-radius: 20px;
-    margin: 10px;
+    margin: 30px;
     padding: 5px;
-
+    
+}
+.contenet-wraper{
+    margin: 0 auto;
+    max-width: 800px;
+    width: 100%;
+    min-width: 320px;
+    border: 2px solid green;
 }
 
 
