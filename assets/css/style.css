@@ -66,15 +66,29 @@ img{
     border: 2px solid green;
 }
 h2{
+    margin-top: 20px;
     font-size: 1.15em;
     font-weight: bold;
     font-style: italic;
+    text-align: center;
 }
 
 p{
 font-size: 0.5em;
 font-weight: 100;
 }
+
+table, td, th {
+  border: 1px solid black;
+  line-height: 40px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+
 
 
 
