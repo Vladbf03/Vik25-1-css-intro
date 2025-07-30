@@ -1,13 +1,22 @@
-body{
-    font-family: lato, sans-serif;
-    line-height: 1.15;
+h1, h2{
+    font-style: italic;
 }
 
-h2{
-    border: 2px solid red;
-    width: 400px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    padding: 10 px;
+body > * {
+    border: 1px solid red;
+}
+
+section > p{
+    font-weight: bold;
+}
+
+section h2 {
+    color: blueviolet;
+}
+h2 + p {
+    background-color: aqua;
+}
+
+h2+p~p{
+    color: blue;
 }
