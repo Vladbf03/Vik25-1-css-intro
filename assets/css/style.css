@@ -2,83 +2,30 @@
     box-sizing: border-box;    
 }
 
-html{
-    --user-photo-width: 130px;
-}
-body{
-    font-family: sans-serif;
-    line-height: 1.2;
+.outerBlock{
+    border: 5px solid blue;
+    height: 500px;
 }
 
-a{
-    text-decoration: none;
-    color: inherit;
+.innerBlock{
+    border: 5px solid red;
+    padding: 10px;
+    font-size: 2rem;
 }
 
-.userCard{
-max-width: 300px;
-width: 100%;
-min-width: 250px;
-margin: 50px auto;
-border-radius: 30px;
-box-shadow: 0 0 10px grey;
-overflow: hidden;
-text-align: center;
+.flexParent{
+display: flex;
+flex-direction: row;
+ justify-content: space-between;  /*main-axis */
+align-items: flex-start; /*across-axis*/
+gap: 20px;
+flex-wrap: wrap;
 }
 
-.bg{
-   background-image: url("https://images.pexels.com/photos/1257860/pexels-photo-1257860.jpeg");
-   background-size: cover;
-   height: 150px;
-   color: white;
-   padding: 25px;
-   text-align: right;
+.flexChild{
+
 }
 
-.content-wrapper {
-    padding: 0 1em 1em;
-}
-
-.userImg{
-    width: var(--user-photo-width);
-    height: var(--user-photo-width);
-    object-fit: cover;
-    border-radius: 50%;
-    display: inline-block;
-    margin-top: calc((-1) * var(--user-photo-width) / 2);
-    border: 3px solid white;
-}
-
-.userName{
-    font-size: 1.5rem;
-    margin: 0.4em 0;
-}
-
-.userGeoposition{
-    font-size: 1rem;
-    margin: 0.5em 0;
-}
-
-.job{
-    font-size: 1.2rem;
-    margin: 0.4em 0;
-}
-
-.experience{
-    font-size: 1rem;
-    margin: 1.2em 0;
-}
-
-.userSocialLink{
-    color: white;
-    background-color: gray;
-    font-size: 1.5rem;
-    border-radius: 50%;
-    width: 45px;
-    height: 45px;
-    padding-top: 10px;
-}
-
-.userSocialLink + .userSocialLink{
-    margin-left: 35px;
+.child3{
+    /* margin-left: auto; */
 }
