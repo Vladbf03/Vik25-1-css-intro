@@ -2,33 +2,26 @@
     box-sizing: border-box;    
 }
 
-header{
-    background-color: aqua;
-    min-height: 100vh;
-    padding: 20px;
-    text-align: center;
-    
+.parent{
+    border: 5px solid blue;
+    min-height: 150px;
+
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
+    
+    align-items: center; 
 }
 
-a{
-    text-decoration: none;
-    color: inherit;
-    border: 1px solid red;
-    padding: 30px 20px;
-
+.child{
+    border: 5px solid red;
+    /* align-self: center; */
 }
 
-h1{
-    font-size: 2em;
-    margin-bottom: 1em;
+.child1{
+    align-self: flex-end;
 }
 
-p{
-    font-size: 1em;
-    margin-bottom: 2em;
-    /*  */
+.child4{
+    /* align-self: flex-end; */
 }
