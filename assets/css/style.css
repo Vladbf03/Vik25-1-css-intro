@@ -7,10 +7,10 @@
     min-height: 150px;
 
     display: flex;
-    flex-direction: column;
-    /* justify-content: center; */
+    flex-direction: row-reverse;
+    justify-content: center;
     
-    align-items: center; 
+    /* align-items: center;  */
 }
 
 .child{
@@ -18,10 +18,8 @@
     /* align-self: center; */
 }
 
+
 .child1{
-    align-self: flex-end;
+    order: 1;
 }
 
-.child4{
-    /* align-self: flex-end; */
-}
