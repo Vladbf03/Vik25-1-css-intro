@@ -2,31 +2,37 @@
   box-sizing: border-box;
 }
 
-.parent {
-  border: 5px solid blue;
-  min-height: 150px;
-
-  display: flex;
-  /* flex-wrap: wrap; */
-  gap: 10px;
+body {
+  padding: 15px;
 }
 
-.child {
-  border: 5px solid red;
+.userCard{
 
-  width: 200px;
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: 300px;
 }
 
-.enother-el {
-  border: 5px solid red;
+.editBtn{
 
-  width: 200px;
 }
 
-.child2{
-    flex-shrink: 4;
+.userImg{
+
+}
+
+.memberSection{
+
+
+}
+
+.cardFooter{
+
+
+}
+
+.socialLinks{
+
+}
+
+.socialLinkItem{
+
     
 }
