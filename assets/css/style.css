@@ -4,35 +4,60 @@
 
 body {
   padding: 15px;
+  background-color: bisque;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.userCard{
+.userCard {
+  margin: 10px;
+  background-color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
+  flex-basis: 300px;
+  flex-grow: 1;
+  min-width: 260px;
+  max-width: 400px;
 }
 
-.editBtn{
-
+.editBtn {
+  align-self: flex-end;
 }
 
-.userImg{
-
+.userImg {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-top: -20px;
 }
 
-.memberSection{
-
-
+.userDescription {
+  text-align: center;
 }
 
-.cardFooter{
-
-
+.memberSection {
+  margin-top: auto;
+  align-self: stretch;
+  display: flex;
+  justify-content: space-between;
 }
 
-.socialLinks{
-
+.cardFooter {
 }
 
-.socialLinkItem{
+.socialLinks {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
 
-    
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.socialLinkItem {
 }
