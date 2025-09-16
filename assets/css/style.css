@@ -48,3 +48,24 @@
   bottom: -50px;
   border-radius: 50%;
 }
+
+header {
+  background-image: url(https://images.pexels.com/photos/1076758/pexels-photo-1076758.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.bg-cover {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+}
