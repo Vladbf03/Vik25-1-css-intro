@@ -2,42 +2,50 @@
   box-sizing: border-box;
 }
 
-/* .first-letter{
-  font-size: 30px;
-  color: red;
-} */
 body {
-  background-color: burlywood;
+  font-family: sans-serif;
 }
 
-p::first-letter {
-  font-size: 30px;
-  color: red;
+.order {
+  width: 100%;
+  min-width: 300px;
+  max-width: 350px;
+  padding: 25px;
+  background-image: linear-gradient(to right, #8ac7f6, #1891e2);
+  color: white;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
 }
 
-p::first-line {
-  font-style: italic;
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
 }
 
-*::selection {
-  background-color: gray;
+.order-count {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 40px;
 }
 
-p::before {
-  content: "Paragraph:";
+.order::after,
+.order::before {
+  content: "";
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.25);
 }
 
-p::after {
-  content: " - End of paragraph";
+.order::before {
+  bottom: -90px;
+  right: -20px;
 }
 
-h1::before {
-  content: "<<";
-}
-h1::after {
-  content: ">>";
-}
-
-li::marker{
-  color: blueviolet;
+.order::after {
+  right: -80px;
+  bottom: 40px;
 }
