@@ -2,29 +2,24 @@
   box-sizing: border-box;
 }
 
-section {
-  display: flex;
-  flex-direction: column;
-
-  gap: 10px;
+.outer-container{
+  border: 2px solid green;
 }
 
-p {
-  padding: 30px;
-  background-color: green;
+.inner-block{
+  border: 2px solid red;
 }
 
-@media screen and (min-width: 400px) {
-  p {
-    padding: 40px;
-  }
+.grid-parent{
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+/* grid-template-rows: repeat(4, 100px); */
+
+/* grid-auto-flow: row; */
+grid-auto-rows: 75px;
+
 }
 
-@media screen and (min-width: 600px) {
-  section {
-    flex-direction: row;
-  }
-  p {
-    padding: 20px;
-  }
+.grid-child{
+
 }
